@@ -1,0 +1,129 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+
+}
+
+#body {
+    background-color: azure;
+}
+
+.header {
+    background-color: rgb(47, 116, 116);
+    height: 80px;
+}
+
+#logo {
+    color: white;
+    text-align: center;
+
+}
+
+.navbar {
+    font-size: large;
+    background-color: aquamarine;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.navbar a:hover {
+    background-color: rgb(47, 116, 116);
+    color: aliceblue;
+
+}
+
+/* 
+.navbar #home {
+    background-color: rgb(47, 116, 116);
+    color: aliceblue;
+
+} */
+
+.center {
+    text-align: center;
+}
+
+#bigimages {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menuimages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menuimages img {
+    width: 250px;
+    height: 250px;
+}
+
+.dish-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dish-images img {
+    width: 320px;
+    height: 320px;
+}
+
+.details .summary {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+
+.footer {
+    background-color: rgb(47, 116, 116);
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    gap: 100px;
+}
+
+.footer div h1 {
+    color: white;
+
+}
+
+.footer div ul {
+
+    text-align: center;
+}
+
+.footer div ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#btn {
+    padding: 8px 14px;
+    font-size: medium;
+    font-weight: 500;
+
+    margin-top: 10px auto;
+    margin-left: 70px;
+    background-color: azure;
+    border: none;
+    color: rgb(47, 116, 116);
+    border-radius: 5px;
+    cursor: pointer;
+}
